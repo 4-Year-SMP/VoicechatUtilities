@@ -1,17 +1,17 @@
-package com.example.voicechatplugin;
+package gg.jos.voicechatplugin;
 
 import de.maxhenkel.voicechat.api.VoicechatApi;
 import de.maxhenkel.voicechat.api.VoicechatPlugin;
 import de.maxhenkel.voicechat.api.events.EventRegistration;
 
-public class ExampleVoicechatPlugin implements VoicechatPlugin {
+public class VoicechatUtilitiesPlugin implements VoicechatPlugin {
 
     /**
      * @return the unique ID for this voice chat plugin
      */
     @Override
     public String getPluginId() {
-        return ExamplePlugin.PLUGIN_ID;
+        return VoicechatUtilities.PLUGIN_ID;
     }
 
     /**
@@ -21,7 +21,6 @@ public class ExampleVoicechatPlugin implements VoicechatPlugin {
      */
     @Override
     public void initialize(VoicechatApi api) {
-
     }
 
     /**
@@ -31,7 +30,9 @@ public class ExampleVoicechatPlugin implements VoicechatPlugin {
      */
     @Override
     public void registerEvents(EventRegistration registration) {
-        // TODO register your events
+        
+        
+        
     }
 
 }
